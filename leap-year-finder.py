@@ -8,7 +8,7 @@ while True:
     
     Continue = (input("Do you want to continue(y/n):"))
 
-    if Continue == ('n').lower():
+    if Continue == 'n'.lower():
         break
     else:
         continue
