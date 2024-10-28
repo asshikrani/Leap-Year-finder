@@ -6,9 +6,9 @@ while True:
     else:
         print("It is not a leap year.")
     
-    Continue = (input("Do you want to continue(y/n):"))
+    Continue = (input("Do you want to continue(y/n):")).lower()
 
-    if Continue == 'n'.lower():
+    if Continue == 'n':
         break
     else:
         continue
